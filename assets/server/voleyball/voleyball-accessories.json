@@ -1,0 +1,47 @@
+[
+  {
+    "productId": 12,
+    "name": "Uchwyt na piłkę",
+    "imgUrl": "assets/images/voleyball/akcesoria-1.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 29.99,
+    "category": "Akcesoria"
+  },
+  {
+    "productId": 13,
+    "name": "Kosz dla piłek",
+    "imgUrl": "assets/images/voleyball/akcesoria-2.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 49.99,
+    "category": "Akcesoria"
+  },
+  {
+    "productId": 14,
+    "name": "Pachołki",
+    "imgUrl": "assets/images/voleyball/akcesoria-3.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 34.99,
+    "category": "Akcesoria"
+  },
+  {
+    "productId": 15,
+    "name": "Rękawek dla siatkarza",
+    "imgUrl": "assets/images/voleyball/akcesoria-4.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 59.99,
+    "category": "Akcesoria"
+  },
+  {
+    "productId": 16,
+    "name": "Odskocznia gimnastyczna",
+    "imgUrl": "assets/images/voleyball/akcesoria-5.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 69.99,
+    "category": "Akcesoria"
+  }
+]
