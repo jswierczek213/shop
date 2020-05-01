@@ -1,0 +1,11 @@
+<mat-toolbar class="title">
+  <h2 class="mat-h2">{{group}} <mat-icon>chevron_right</mat-icon> {{category}}</h2>
+</mat-toolbar>
+<mat-toolbar class="sort-btn-container" style="justify-content: space-around;">
+  <button mat-raised-button [matMenuTriggerFor]="sortOptions">Sortuj</button>
+</mat-toolbar>
+<mat-menu #sortOptions>
+  <button mat-flat-button (click)="emit('asc')">Cena rosnąco</button>
+  <br/>
+  <button mat-flat-button (click)="emit('desc')">Cena malejąco</button>
+</mat-menu>

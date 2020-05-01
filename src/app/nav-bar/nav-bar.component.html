@@ -1,0 +1,54 @@
+<mat-toolbar class="navbar" color="primary">
+  <div class="logo-container">
+    <img src="assets/images/nav-logo.png" alt="Logo witryny sportal" routerLink="/"/>
+  </div>
+  <div>
+    <div class="categories" *ngIf="!isSmallScreen" >
+      <!-- Voleyball -->
+      <button mat-raised-button [matMenuTriggerFor]="volleyballMenu">Siatkówka</button>
+
+      <mat-menu #volleyballMenu="matMenu">
+        <ng-template matMenuContent>
+          <button mat-menu-item routerLink="/volleyball/balls">Piłki</button>
+          <button mat-menu-item routerLink="/volleyball/nets">Siatki</button>
+          <button mat-menu-item routerLink="/volleyball/accessories">Akcesoria treningowe</button>
+        </ng-template>
+      </mat-menu>
+
+      <!-- Basketball -->
+      <button mat-raised-button [matMenuTriggerFor]="basketballMenu">Koszykówka</button>
+
+      <mat-menu #basketballMenu="matMenu">
+        <ng-template matMenuContent>
+          <button mat-menu-item routerLink="/basketball/balls">Piłki</button>
+          <button mat-menu-item routerLink="/basketball/baskets">Kosze</button>
+          <button mat-menu-item routerLink="/basketball/accessories">Akcesoria treningowe</button>
+        </ng-template>
+      </mat-menu>
+
+      <!-- Football -->
+      <button mat-raised-button [matMenuTriggerFor]="footballMenu">Piłka nożna</button>
+
+      <mat-menu #footballMenu="matMenu">
+        <ng-template matMenuContent>
+          <button mat-menu-item routerLink="/football/balls">Piłki</button>
+          <button mat-menu-item routerLink="/football/goalgates">Bramki</button>
+          <button mat-menu-item routerLink="/football/equipment">Wyposażenie bramkarza</button>
+          <button mat-menu-item routerLink="/football/accessories">Akcesoria treningowe</button>
+        </ng-template>
+      </mat-menu>
+    </div>
+
+    <!-- Shopping cart -->
+    <button mat-icon-button color="accent" routerLink="/my-cart">
+      <mat-icon [matBadge]="productCount" [matBadgeHidden]="productCount == 0" matBadgeColor="accent" matBadgeSize="small" madBadgeOverlap="false" matBadgeHidden="false">
+        shopping_cart
+      </mat-icon>
+    </button>
+
+    <!-- Side menu icon -->
+    <button mat-icon-button (click)="toggleSidemenu()" *ngIf="isSmallScreen">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

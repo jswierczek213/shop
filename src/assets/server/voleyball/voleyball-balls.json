@@ -1,0 +1,65 @@
+[
+  {
+    "productId": 1,
+    "name": "Molten 2000",
+    "imgUrl": "assets/images/voleyball/pilka-1.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 29.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 2,
+    "name": "Mikasa MVA123",
+    "imgUrl": "assets/images/voleyball/pilka-2.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 34.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 3,
+    "name": "Mikasa",
+    "imgUrl": "assets/images/voleyball/pilka-3.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 29.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 4,
+    "name": "Mikasa MVA370",
+    "imgUrl": "assets/images/voleyball/pilka-4.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 44.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 5,
+    "name": "Mikasa SKV5",
+    "imgUrl": "assets/images/voleyball/pilka-5.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 39.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 6,
+    "name": "Mikasa VLS300",
+    "imgUrl": "assets/images/voleyball/pilka-6.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 29.99,
+    "category": "Piłki"
+  },
+  {
+    "productId": 7,
+    "name": "Cumulus",
+    "imgUrl": "assets/images/voleyball/pilka-7.jpg",
+    "shortDescription": "Krótki, wstępny opis zawierający informacje o wymiarach, wadze, jakości i innych typowych parametrach tego produktu.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu. Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada. Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim. Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.",
+    "price": 24.99,
+    "category": "Piłki"
+  }
+]

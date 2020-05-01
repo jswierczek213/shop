@@ -1,0 +1,67 @@
+<!-- Content if product exist -->
+<div *ngIf="product; else productNotExist">
+  <mat-toolbar class="title">
+    <h2 class="mat-h2">{{product.category}} <mat-icon>chevron_right</mat-icon> {{product.name}}</h2>
+  </mat-toolbar>
+  <div class="product-details-container">
+    <div class="mat-display-1 product-name" style="margin-bottom: 16px;">
+      <span>{{product.name}}</span>
+      <button mat-flat-button color="warn" (click)="goBack()">Powrót</button>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="float-container">
+      <div class="description-container">
+        <div class="image-container">
+          <img [src]="product.imgUrl" alt="Zdjęcie przedstawia wybrany produkt"/>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pulvinar tincidunt ipsum, quis aliquet dolor blandit nec. Donec vel mi nunc. Nulla fermentum iaculis lacus eu scelerisque. Pellentesque sollicitudin lectus mauris, id fringilla nunc tristique eu.
+        </p>
+        <p>
+          Aliquam euismod nec ipsum nec cursus. Morbi cursus velit sit amet eros porttitor eleifend. Integer quis magna ex. Aliquam eget commodo tellus. Proin lacinia rhoncus lorem. Fusce semper neque vel erat elementum, nec consequat eros ullamcorper. Suspendisse potenti. Pellentesque imperdiet vel dui sed malesuada.
+        </p>
+        <p>
+          Donec leo magna, hendrerit vel felis nec, porta ultrices sapien. Quisque tristique eu dolor vitae tincidunt. Suspendisse at venenatis metus, tempor feugiat enim. Nulla eget odio neque. Sed sodales tellus nunc, vel maximus lacus finibus non. Nulla ultrices viverra leo, sed vestibulum erat semper quis. Nullam lobortis erat et ornare pharetra. In sodales massa nibh. In euismod elit et consequat dignissim.
+        </p>
+        <p>
+          Morbi porttitor, risus ut posuere finibus, nulla est cursus risus, vitae dictum mi elit sit amet metus. Praesent nec est ultrices, elementum ante sed, rhoncus ex. Praesent rutrum feugiat sapien eu consequat. Aliquam maximus, turpis quis blandit dignissim, magna ligula luctus nulla, at volutpat sem sem nec massa. Quisque non vulputate enim.
+        </p>
+      </div>
+      <div style="clear: both"></div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="action-container">
+      <span class="price">{{product.price}} zł</span>
+      <button mat-flat-button color="accent" (click)="addToCart()">Dodaj do koszyka</button>
+    </div>
+    <mat-divider></mat-divider>
+    <h2 class="mat-h2">Zobacz także produkty dla pozostałych sportów</h2>
+    <div class="suggestions-container">
+      <!-- Selected product belongs to volleyball -->
+      <ng-container *ngIf="isFromVolleyball()">
+        <div class="suggestion" routerLink="/basketball/balls">Dział koszykówki</div>
+        <div class="suggestion" routerLink="/football/balls">Dział piłki nożnej</div>
+      </ng-container>
+
+      <!-- Selected product belongs to basketball -->
+      <ng-container *ngIf="isFromBasketball()">
+        <div class="suggestion" routerLink="/volleyball/balls">Dział siatkówki</div>
+        <div class="suggestion" routerLink="/football/balls">Dział piłki nożnej</div>
+      </ng-container>
+
+      <!-- Selected product belongs to football -->
+      <ng-container *ngIf="isFromFootball()">
+        <div class="suggestion" routerLink="/volleyball/balls">Dział siatkówki</div>
+        <div class="suggestion" routerLink="/basketball/balls">Dział koszykówki</div>
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+<!-- Content if product not exist -->
+<ng-template #productNotExist>
+  <app-not-found></app-not-found>
+</ng-template>
+
+<!-- Loading spinner -->
+<mat-spinner class="loadingSpinner" *ngIf="isLoading"></mat-spinner>

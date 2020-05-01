@@ -1,0 +1,56 @@
+<app-nav-bar [sidenav]="sidenav"></app-nav-bar>
+<div class="spacer"></div>
+<main>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav class="sidenav" position="end" mode="over" fixedInViewport>
+      <div>
+        <h3 class="mat-h3 mat-subheading-2">Siatkówka</h3>
+        <mat-divider></mat-divider>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/volleyball/balls" routerLinkActive="active">
+          Piłki do siatkówki
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/volleyball/nets" routerLinkActive="active">
+          Siatki do siatkówki
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/volleyball/accessories" routerLinkActive="active">
+          Akcesoria
+        </a>
+      </div>
+      <div>
+        <h3 class="mat-h3 mat-subheading-2">Koszykówka</h3>
+        <mat-divider></mat-divider>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/basketball/balls" routerLinkActive="active">
+          Piłki do koszykówki
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/basketball/baskets" routerLinkActive="active">
+          Kosze do koszykówki
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/basketball/accessories" routerLinkActive="active">
+          Akcesoria
+        </a>
+      </div>
+      <div>
+        <h3 class="mat-h3 mat-subheading-2">Piłka nożna</h3>
+        <mat-divider></mat-divider>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/football/balls" routerLinkActive="active">
+          Piłki do piłki nożnej
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/football/goalgates" routerLinkActive="active">
+          Bramki do piłki nożnej
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/football/equipment" routerLinkActive="active">
+          Wyposażenie zawodnika
+        </a>
+        <a class="link" (click)="sidenav.toggle()" routerLink="/football/accessories" routerLinkActive="active">
+          Akcesoria
+        </a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</main>
+<mat-toolbar class="footer">
+  <span> &copy; Jakub Świerczek - 2020 </span>
+</mat-toolbar>

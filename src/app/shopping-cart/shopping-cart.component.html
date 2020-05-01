@@ -1,0 +1,47 @@
+<mat-toolbar class="cart-header">
+  <mat-toolbar-row>
+    <img src="assets/images/logo.png" alt="Logo witryny sportal"/>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-flat-button color="primary" routerLink="/">Kontynuuj zakupy</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="cart-container">
+  <!-- Cart info -->
+  <div class="cart-info">
+    <h2 [ngClass]="{'mat-display-3': !isSmallScreen, 'mat-display-1': isSmallScreen}">Informacje</h2>
+    <h2 class="mat-h2">Ilość produktów</h2>
+    <p>Liczba produktów w koszyku: {{productCount}}</p>
+    <mat-divider></mat-divider>
+    <h2 class="mat-h2">Obecne kategorie</h2>
+    <mat-list *ngIf="selectedCategories.length; else noCategories">
+      <mat-list-item *ngFor="let category of selectedCategories"  class="category-item">
+        <mat-icon matListIcon>category</mat-icon>
+        <h3 class="mat-h3" matLine>{{category}}</h3>
+      </mat-list-item>
+    </mat-list>
+    <ng-template #noCategories>
+      <p>Nie wybrałeś żadnego produktu!</p>
+    </ng-template>
+  </div>
+
+  <!-- Products list with summary -->
+  <div *ngIf="true"  class="cart-items">
+    <mat-toolbar style="background-color: #303030; color: #fff">
+      <h2 class="mat-h2">Wybrane produkty</h2>
+    </mat-toolbar>
+    <mat-list>
+      <mat-list-item *ngFor="let product of products" class="item">
+        <mat-icon matListIcon>shopping_cart</mat-icon>
+        <h3 matLine><a class="product-link" [routerLink]="['/products', product.productId]">{{product.name}}</a></h3>
+        <p matLine>{{product.price}} zł</p>
+        <button mat-raised-button color="warn" (click)="remove(product)">Usuń</button>
+      </mat-list-item>
+    </mat-list>
+    <mat-divider></mat-divider>
+    <mat-toolbar class="summary">
+      <h2 class="mat-h2">Podsumowanie</h2>
+      <span>{{totalPrice}} zł</span>
+    </mat-toolbar>
+  </div>
+</div>

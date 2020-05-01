@@ -1,0 +1,22 @@
+<app-title-toolbar group="Piłka nożna" category="Wyposażenie zawodnika" (sort)="sortEquipment($event)"></app-title-toolbar>
+<mat-divider></mat-divider>
+<div class="products-container">
+  <mat-spinner class="loadingSpinner" *ngIf="isLoading"></mat-spinner>
+  <mat-card class="item" *ngFor="let equipmentProduct of sortedEquipment" >
+    <mat-card-header>
+      <mat-card-title>
+        <a [title]="equipmentProduct.name + ' szczegóły'" [routerLink]="['/products', equipmentProduct.productId]">
+          {{equipmentProduct.name}}
+        </a>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{equipmentProduct.imgUrl}}" alt="Obraz przedstawiający wyposażenie zawodnika" />
+    <mat-card-content>
+      <p class="description">{{equipmentProduct.shortDescription}}</p>
+      <p class="price">{{equipmentProduct.price}} zł</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-button (click)="addToCart(equipmentProduct)">Dodaj do koszyka</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

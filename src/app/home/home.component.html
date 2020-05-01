@@ -1,0 +1,112 @@
+<div class="shop-info-container">
+  <div class="logo-container"></div>
+  <div class="description-container">
+    <h2 class="mat-h2 description-header">Wprowadzenie</h2>
+    <p class="description">
+      Hej! Jest to witryna sklepu sportowego online, która jest niczym innym jak <span class="bold">projektem</span>, za pomocą którego staram się zaprezentować swoje umiejętności w korzystaniu z technologii front-end. Całość powstała przy pomocy frameworka <span class="bold">Angular</span> oraz <span class="bold">Angular Material</span>. Możesz tutaj znaleźć różnego rodzaju produkty z odpowiadającymi im obrazkami<span class="details">*</span>, które następnie można dodać do koszyka lub przejrzeć ich dokładny opis klikając w ich nazwę. W koszyku możesz usuwać dodane wcześniej produkty, sprawdzić kwotę ewentualnego zamówienia oraz obecne w nim kategorie.
+    </p>
+    <p class="description">
+      <span class="details">*</span> Żaden obrazek produktu nie jest moją własnością
+    </p>
+  </div>
+</div>
+<div class="content-container">
+  <div class="community-icons-container">
+    <h2 class="mat-h2" [ngClass]="{'mat-h4 mat-subheading-1': isSmallScreen}">Znajdziesz nas tutaj</h2>
+    <mat-divider></mat-divider>
+    <div class="find-us">
+      <div class="community">
+        <div>
+          <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+        </div>
+        <span class="community-name">Facebook</span>
+      </div>
+      <div class="community">
+        <div>
+          <img src="https://img.icons8.com/color/48/000000/twitter.png"/>
+        </div>
+        <span class="community-name">Twitter</span>
+      </div>
+      <div class="community">
+        <div>
+          <img src="https://img.icons8.com/color/48/000000/instagram-new.png"/>
+        </div>
+        <span class="community-name">Instagram</span>
+      </div>
+    </div>
+  </div>
+  <div class="sections-container">
+    <div class="section" style="margin-top: 0; padding-top: 20px">
+      <h2 class="mat-h2">Siatkówka</h2>
+      <mat-divider></mat-divider>
+      <div class="random-products">
+        <mat-card class="product" *ngFor="let product of volleyballProducts" >
+          <mat-card-header>
+            <mat-card-title>
+              <a [routerLink]="['/products', product.productId]">{{ product.name }}</a>
+            </mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{ product.imgUrl }}" />
+          <mat-card-content>
+            <p class="description">{{ product.shortDescription }}</p>
+            <p class="price">{{ product.price }} zł</p>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="addToCart(product)">Dodaj do koszyka</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <div class="link-container">
+        <a routerLink="/volleyball/balls">Pokaż więcej</a>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="mat-h2">Koszykówka</h2>
+      <mat-divider></mat-divider>
+      <div class="random-products">
+        <mat-card class="product" *ngFor="let product of basketballProducts" >
+          <mat-card-header>
+            <mat-card-title>
+              <a [title]="product.name + ' szczegóły'" [routerLink]="['/products', product.productId]">{{ product.name }}</a>
+            </mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{ product.imgUrl }}" />
+          <mat-card-content>
+            <p class="description">{{ product.shortDescription }}</p>
+            <p class="price">{{ product.price }} zł</p>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="addToCart(product)">Dodaj do koszyka</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <div class="link-container">
+        <a routerLink="/basketball/balls">Pokaż więcej</a>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="mat-h2">Piłka nożna</h2>
+      <mat-divider></mat-divider>
+      <div class="random-products">
+        <mat-card class="product" *ngFor="let product of footballProducts" >
+          <mat-card-header>
+            <mat-card-title>
+              <a [routerLink]="['/products', product.productId]">{{ product.name }}</a>
+            </mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{ product.imgUrl }}" />
+          <mat-card-content>
+            <p class="description">{{ product.shortDescription }}</p>
+            <p class="price">{{ product.price }} zł</p>
+          </mat-card-content>
+          <mat-card-actions align="end">
+            <button mat-button (click)="addToCart(product)">Dodaj do koszyka</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+      <div class="link-container">
+        <a routerLink="/football/balls">Pokaż więcej</a>
+      </div>
+    </div>
+  </div>
+</div>

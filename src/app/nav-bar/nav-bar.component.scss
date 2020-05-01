@@ -1,0 +1,42 @@
+.navbar {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  user-select: none;
+  border-bottom: 1px solid #000;
+  box-shadow: 0 2px 8px #000;
+  z-index: 2;
+  background-color: #303030;
+  margin-top: -1px;
+
+  div.logo-container {
+    position: relative;
+    margin-left: 20px;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      cursor: pointer;
+      outline: none;
+    }
+  }
+
+  div {
+    display: inline-block;
+
+    div.categories {
+      margin-right: 100px;
+
+      button {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  @media (max-width: 599px) {
+    height: 64px;
+  }
+}

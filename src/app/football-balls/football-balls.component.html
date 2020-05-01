@@ -1,0 +1,22 @@
+<app-title-toolbar group="Piłka nożna" category="Piłki" (sort)="sortBalls($event)"></app-title-toolbar>
+<mat-divider></mat-divider>
+<div class="products-container">
+  <mat-spinner class="loadingSpinner" *ngIf="isLoading"></mat-spinner>
+  <mat-card class="item" *ngFor="let ball of sortedBalls" >
+    <mat-card-header>
+      <mat-card-title>
+        <a [title]="ball.name + ' szczegóły'" [routerLink]="['/products', ball.productId]">
+          {{ball.name}}
+        </a>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{ball.imgUrl}}" alt="Obraz przedstawiający piłkę do piłki nożnej" />
+    <mat-card-content>
+      <p class="description">{{ball.shortDescription}}</p>
+      <p class="price">{{ball.price}} zł</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-button (click)="addToCart(ball)">Dodaj do koszyka</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

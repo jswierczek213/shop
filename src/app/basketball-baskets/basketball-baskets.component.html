@@ -1,0 +1,22 @@
+<app-title-toolbar group="Koszykówka" category="Kosze" (sort)="sortBaskets($event)"></app-title-toolbar>
+<mat-divider></mat-divider>
+<div class="products-container">
+  <mat-spinner class="loadingSpinner" *ngIf="isLoading"></mat-spinner>
+  <mat-card class="item" *ngFor="let basket of sortedBaskets" >
+    <mat-card-header>
+      <mat-card-title>
+        <a [title]="basket.name + ' szczegóły'" [routerLink]="['/products', basket.productId]">
+          {{basket.name}}
+        </a>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{basket.imgUrl}}" alt="Obraz przedstawiający piłkę do koszykówki" />
+    <mat-card-content>
+      <p class="description">{{basket.shortDescription}}</p>
+      <p class="price">{{basket.price}} zł</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-button (click)="addToCart(basket)">Dodaj do koszyka</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

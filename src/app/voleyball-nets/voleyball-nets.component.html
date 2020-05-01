@@ -1,0 +1,22 @@
+<app-title-toolbar group="Siatkówka" category="Siatki" (sort)="sortNets($event)"></app-title-toolbar>
+<mat-divider></mat-divider>
+<div class="products-container">
+  <mat-spinner class="loadingSpinner" *ngIf="isLoading"></mat-spinner>
+  <mat-card class="item" *ngFor="let net of sortedNets" >
+    <mat-card-header>
+      <mat-card-title>
+        <a [title]="net.name + ' szczegóły'" [routerLink]="['/products', net.productId]">
+          {{net.name}}
+        </a>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{net.imgUrl}}" alt="Obraz przedstawiający siatkę do siatkówki" />
+    <mat-card-content>
+      <p class="description">{{net.shortDescription}}</p>
+      <p class="price">{{net.price}} zł</p>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-button (click)="addToCart(net)">Dodaj do koszyka</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
